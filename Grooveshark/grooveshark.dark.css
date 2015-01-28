@@ -1,0 +1,49 @@
+#page-wrapper.theme {
+  background: url(assets/stage_background.jpg) top center no-repeat rgb(0, 0, 0);
+}
+
+#home-dashboard-user .welcome-message 
+{
+  color: black;
+  text-shadow: none;
+}
+
+#page-nav
+{
+  background: rgb(45,45,45);
+  color: black;
+  text-shadow: none;
+}
+
+#page-inner {
+  background: rgb(45,45,45);
+  color: black;
+}
+
+.module-inner
+{
+  background: rgb(64,64,64);
+  color: black;
+}
+
+.btn,
+.icon
+{
+  background: rgb(64,64,64);
+  color: orange;
+  text-shadow: none;
+}
+
+.next-pageable-nav .section-page-back,
+.previous-pageable-nav .section-page-back
+{
+  background: rgb(64,64,64);
+  color: black;
+  text-shadow: none;
+}
+
+#page-content.home .section-title
+{
+  color: black;
+  text-shadow: none;
+}
