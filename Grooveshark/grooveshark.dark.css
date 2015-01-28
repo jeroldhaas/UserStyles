@@ -1,3 +1,8 @@
+/*
+ * "URLs starting with:" https://grooveshark.com
+ * "URLs starting with:" http://grooveshark.com
+ */
+
 #page-wrapper.theme {
   background: url(assets/stage_background.jpg) top center no-repeat rgb(0, 0, 0);
 }
