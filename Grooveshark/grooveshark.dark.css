@@ -2,27 +2,27 @@
  * "URLs starting with:" https://grooveshark.com
  * "URLs starting with:" http://grooveshark.com
  */
-
-#page-wrapper.theme {
+#page-wrapper.theme
+{
   background: url(assets/stage_background.jpg) top center no-repeat rgb(0, 0, 0);
 }
 
 #home-dashboard-user .welcome-message 
 {
-  color: black;
+  color: rgb(0,0,0);
   text-shadow: none;
 }
 
 #page-nav
 {
   background: rgb(45,45,45);
-  color: black;
+  color: rgb(0,0,0);
   text-shadow: none;
 }
 
 #page-inner {
   background: rgb(45,45,45);
-  color: black;
+  color: rgb(0,0,0);
 }
 
 .module-inner
@@ -31,11 +31,10 @@
   color: black;
 }
 
-.btn,
-.icon
+.btn
 {
   background: rgb(64,64,64);
-  color: orange;
+  color: rgb(247, 127, 0);
   text-shadow: none;
 }
 
@@ -43,12 +42,12 @@
 .previous-pageable-nav .section-page-back
 {
   background: rgb(64,64,64);
-  color: black;
+  color: rgb(0,0,0);
   text-shadow: none;
 }
 
 #page-content.home .section-title
 {
-  color: black;
+  color: rgb(0,0,0);
   text-shadow: none;
 }
