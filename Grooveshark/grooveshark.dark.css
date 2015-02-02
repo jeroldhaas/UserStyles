@@ -2,6 +2,31 @@
  * "URLs starting with:" https://grooveshark.com
  * "URLs starting with:" http://grooveshark.com
  */
+
+h1, h2, h3, h4, h5, h6 {
+  /*margin: 0;*/
+  font-weight: normal;
+  color: rgb(247, 127, 0);
+}
+
+#header-search
+{
+  background: rgb(0, 0, 0);
+  box-shadow: 0 1px 0 0 rgb(177, 177, 177), inset 0 1px 0 0 rgb(36, 36, 36);
+}
+
+input,
+textarea,
+select
+{
+  color: rgb(247, 127, 0);
+}
+	input.focused
+	{
+  		color: rgb(247,127,0);
+	}
+
+
 #page-wrapper.theme
 {
   background: url(assets/stage_background.jpg) top center no-repeat rgb(0, 0, 0);
@@ -13,22 +38,55 @@
   text-shadow: none;
 }
 
-#page-nav
+#page-nav,
+#page-header,
+#footer
 {
   background: rgb(45,45,45);
   color: rgb(0,0,0);
   text-shadow: none;
 }
 
-#page-inner {
+.show-more,
+.grid-toolbar,
+.grid-toolbar-inner,
+.grid-toolbar .grid-toolbar-inner,
+#page-nav
+{
+  border: none;
+  background-color: rgb(45,45,45);
+  background-image: none;
+  background-image: -webkit-linear-gradient(top, rgb(102, 102, 102), rgb(45,45,45));
+}
+
+#page-nav .page-nav-link
+{
+  color: rgb(102, 102, 102);
+  text-shadow: none;
+}
+	#page-nav .page-nav-link:hover
+	{
+  		text-shadow: 1px 1px 6px rgb(247, 127, 0);
+  		color: rgb(0, 0, 0);
+	}
+
+
+#page-inner
+{
   background: rgb(45,45,45);
   color: rgb(0,0,0);
 }
 
-.module-inner
+.module,
+.snapshot
 {
-  background: rgb(64,64,64);
+  background: transparent;
   color: black;
+}
+
+.icon
+{
+  color: rgba(255, 255, 255, 1.0);
 }
 
 .btn
@@ -36,15 +94,46 @@
   background: rgb(64,64,64);
   color: rgb(247, 127, 0);
   text-shadow: none;
+  border: none;
+  box-shadow: none;
 }
-
+	.btn:hover
+	{
+  		background: rgb(247,127,0);
+  		color: rgb(0,0,0);
+	}
+/*
+.btn-success
+{
+  background: transparent; rgb(56, 109, 15);
+  background-image: linear-gradient(top, #7db721, #4e9c15);
+}
+*/
 .next-pageable-nav .section-page-back,
-.previous-pageable-nav .section-page-back
+.previous-pageable-nav .section-page-back,
+.grid-toolbar-inner,
+.column2-tab
 {
   background: rgb(64,64,64);
+  background-image: none;
   color: rgb(0,0,0);
   text-shadow: none;
 }
+
+.module-row
+{
+  border-bottom: dotted 1px rgb(0,0,0);
+  border-top: dotted 1px rgb(0,0,0);
+}
+.module-row.active,
+.module-row:hover,
+.module-row.active>module-row-cell.song
+{
+  background: rgb(247, 127, 0);
+  border: solid 1px rgb(247, 127, 0);
+  color: rgb(0,0,0);
+}
+
 
 #page-content.home .section-title
 {
